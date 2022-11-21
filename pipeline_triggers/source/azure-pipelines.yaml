@@ -1,0 +1,5 @@
+pool: test1
+
+steps:
+    - script: echo This is the first step
+      displayName: 'Step 1'
