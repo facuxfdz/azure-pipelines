@@ -1,0 +1,10 @@
+resources:
+    pipelines:
+        - pipeline: sourceRun
+          source: source-run
+          trigger: true
+
+pool: default
+
+steps:
+    - script: echo Source Pipeline already runned!
