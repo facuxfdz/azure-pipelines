@@ -8,3 +8,4 @@ pool: default
 
 steps:
     - script: echo Source Pipeline already runned!
+      displayName: 'Step 2 triggered'
