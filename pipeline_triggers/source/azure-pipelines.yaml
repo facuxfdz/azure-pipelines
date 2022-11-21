@@ -1,4 +1,4 @@
-pool: test1
+pool: default
 
 steps:
     - script: echo This is the first step
