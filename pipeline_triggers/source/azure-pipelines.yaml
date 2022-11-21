@@ -1,5 +1,7 @@
 pool: default
 
 steps:
-    - script: echo This is the first step
+    - script: |
+        echo This is the first step
+        dir
       displayName: 'Step 1'
